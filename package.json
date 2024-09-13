@@ -1,0 +1,32 @@
+{
+  "name": "aws-automation-ts-s3-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "./node_modules/ts-node/dist/bin.js index.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/gcp": "^7.38.0",
+    "@pulumi/pulumi": "^3.132.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@jest/globals": "^29.7.0",
+    "@types/chai": "^4.3.19",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^22.5.4",
+    "babel-jest": "^29.7.0",
+    "chai": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
